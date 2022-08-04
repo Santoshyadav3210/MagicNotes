@@ -118,15 +118,31 @@ img:hover {
   .note{
     width: 30%;
   }
+  .notes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 @media (max-width:800px) {
   .note{
     width: 50%;
   }
+  .notes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
  @media (max-width:500px) {
   .note{
     width: 80%;
+  }
+
+  .notes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
